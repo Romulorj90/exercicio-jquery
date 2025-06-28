@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Quadrado 1 – Formulário -->
+        <div class="box box-form">
+            <h2>NOVA TAREFA</h2>
+            <form id="form-tarefa">
+                <input type="text" id="nova-tarefa" placeholder="Digite a tarefa" required />
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+
+        <!-- Quadrado 2 – Lista -->
+        <div class="box box-list">
+            <h2>LISTA</h2>
+            <ol id="lista-tarefas"></ol>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
